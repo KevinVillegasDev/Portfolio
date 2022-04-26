@@ -13,6 +13,8 @@
 
 ## Project Description
 
+Currently building version 1 of my portfolio website
+
 ## Wireframes
 
 [Desktop and mobile](https://imgur.com/a/jWNrnMc)
