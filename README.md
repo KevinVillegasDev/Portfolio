@@ -19,13 +19,17 @@
 
 ## Time/Priority Matrix
 
+[Link to Matrix](https://imgur.com/a/EmsmBci)
+
 ## MVP/PostMVP
 
 ### MVP (examples)
 
-* 1
-* 2
-* 3
+* About Me
+* Contact
+* Project tile layout
+* Hamburger menu for mobile
+
 
 ### PostMVP
 
