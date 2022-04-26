@@ -15,6 +15,8 @@
 
 ## Wireframes
 
+[Desktop and mobile](https://imgur.com/a/jWNrnMc)
+
 ## Time/Priority Matrix
 
 ## MVP/PostMVP
