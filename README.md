@@ -35,6 +35,21 @@
 
 ## Functional Components
 
+#### MVP
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: |
+| Hamburger | H | 1hr | hr |
+| Project Tiles | H | 3hr | hr |
+| Nav bar | H | 1hr | hr |
+| Contact form | H | 1hr | hr |
+| Google backend API | H | 2hr | hr |
+| About Me & Home page | H | 3hr | hr |
+| Responsive Design | H | 3.5hr | hr |
+| Icons | L | 1hr | hr |
+| Total | H | 15.5hrs | hr |
+
+
+
 ## Additional Libraries
 
 ## Code Snippet
