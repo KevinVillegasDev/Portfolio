@@ -1,0 +1,20 @@
+.nav-item {
+    display: inline;
+    padding: 5px;
+    
+}
+
+.nav-container {
+    text-align: center;
+}
+
+.selfie {
+    border-radius: 50%;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.homepage {
+    text-align: center;
+}
