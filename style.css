@@ -1,3 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    /* background-image: url(https://images.pexels.com/photos/808465/pexels-photo-808465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+a {
+    text-decoration: none;
+}
+
 .nav-item {
     display: inline;
     padding: 5px;
@@ -10,12 +24,28 @@
 
 .selfie {
     border-radius: 50%;
-    height: 400px;
-    width: 300px;
+    height: 250px;
+    width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 50px;
 }
 .homepage {
     text-align: center;
+    padding-top: 30px;
+}
+
+.aboutpage {
+    text-align: center;
+    padding-top: 200px;
+}
+.aboutsnippet {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.projectpage {
+    text-align: center;
+    padding-top: 200px;
 }
