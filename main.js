@@ -1,16 +1,33 @@
-console.log("hello");
+let googleForms =
+    "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfnisF_bBgsm8dQtBDXWN3lmptb33D3UFR96LGMFkSNJwEx_Q/formResponse";
 
-let link =
-    "https://docs.google.com/spreadsheets/d/19Z5xRV2uRYM8WX0QTWsPo2IC3AuWNPOULuzpOW0VFqw/edit?usp=sharing";
+$("form").on("submit", function (form) {
+    let baseUrl =
+        "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfnisF_bBgsm8dQtBDXWN3lmptb33D3UFR96LGMFkSNJwEx_Q";
+    let url = (baseUrl += "/formResponse?");
 
-let key = "AIzaSyBF_rHAsqqzlDTbDbm-UJ05jdyixsHguAE";
+    let inputs = form.currentTarget.childNodes;
+    inputs.forEach((element) => {
+        if (
+            (element.localName === "input" ||
+                element.localName === "textarea") &&
+            element.type !== "submit"
+        ) {
+            url += element.name;
+            url += "=";
+            url += element.value;
+            url += "&";
+        }
+    });
+    $.ajax({
+        url: url,
+    })
+        .then(function (e) {
+            alert("Form submitted! Thank you!");
+        })
+        .catch(function (e) {
+            console.error("Form failed!");
+        });
 
-let url =
-    "https://sheets.googleapis.com/v4/spreadsheets/19Z5xRV2uRYM8WX0QTWsPo2IC3AuWNPOULuzpOW0VFqw/values/A1:B1?key=AIzaSyBF_rHAsqqzlDTbDbm-UJ05jdyixsHguAE";
-
-$.ajax({ url: url }).then((data) => {
-    console.log(data);
+    return false;
 });
-
-let postUrl =
-    "https://sheets.googleapis.com/v4/spreadsheets/19Z5xRV2uRYM8WX0QTWsPo2IC3AuWNPOULuzpOW0VFqw/values/A30:Z30:append??key=AIzaSyBF_rHAsqqzlDTbDbm-UJ05jdyixsHguAE";
