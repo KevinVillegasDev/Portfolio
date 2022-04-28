@@ -98,6 +98,16 @@ a {
     margin-left: 20px;
     margin-right: 20px;
 }
+input {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+textarea {
+    box-sizing: border-box;
+    width: 70%;
+    
+}
 
 
 @media (min-width: 426px) {
@@ -124,5 +134,14 @@ a {
     }
     .nav-container {
         margin-top: 50px;
+    }
+    input {
+        width: 30%;
+        box-sizing: border-box;
+        padding: 12px 20px;
+    }
+    textarea {
+        box-sizing: border-box;
+        width: 50%;
     }
 }
