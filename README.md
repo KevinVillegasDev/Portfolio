@@ -48,7 +48,7 @@ Currently building version 1 of my portfolio website
 | About Me & Home page | H | 3hr | 3hr |
 | Responsive Design | H | 3.5hr | 5hr |
 | Icons | L | 1hr | 1hr |
-| Total | H | 15.5hrs | hr |
+| Total | H | 15.5hrs | 19hrs |
 
 
 
