@@ -4,16 +4,16 @@ html {
 #contentcontainer {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 0.5fr 2fr 1fr;
+    grid-template-rows: 0.5fr 0.3fr 1.5fr;
 }
 
-
+.hide {
+    display: none;
+}
 body {
-    /* background-image: url(https://images.pexels.com/photos/808465/pexels-photo-808465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    background-color:rgb(128, 128, 128) ;
     background-repeat: no-repeat;
     background-size: cover;
-    
-
 }
 a {
     text-decoration: none;
@@ -69,6 +69,7 @@ a {
 }
 
 .card {
+    background-color: rgb(204, 195, 195);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     display: block;
@@ -97,10 +98,22 @@ a {
     #contentcontainer {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 0.5fr 2fr 1fr;
+        grid-template-rows: 0.8fr 0.5fr 1.5fr;
     }
     .cardsection {
         grid-template-columns: 1.5fr 1.5fr 1.5fr;
         grid-template-rows: 1fr;
+    }
+    .nav-menu img {
+        display: none;
+    }
+    .nav-list {
+        display: unset;
+    }
+    .homepage {
+        margin-top: 90px;
+    }
+    .nav-container {
+        margin-top: 50px;
     }
 }
