@@ -34,44 +34,87 @@
             </div>
         </nav>
     </header>
-    <section id="home">
-        <div class="homepage">
-            <h1>
-                Hi, I'm Kevin
-            </h1>
-            <h3>
-                Full Stack Developer
-            </h3>
-            <p>Experienced in full stack development and producing quality work</p>
-            <img src="./images/IMG_0067.JPG" alt="#" class="selfie">
-            <br>
-            <br>
-            <button class="contactbutton" a href="#contact">Contact me</button>
+    <div id="contentcontainer">
+        <section id="home">
+            <div class="homepage">
+                <h1>
+                    Hi, I'm Kevin
+                </h1>
+                <h3>
+                    Full Stack Developer
+                </h3>
+                <p>Experienced in full stack development and producing quality work</p>
+                <img src="./images/IMG_0067.JPG" alt="#" class="selfie">
+                <br>
+                <br>
+                <button class="contactbutton" a href="#contact">Contact me</button>
 
+            </div>
+        </section>
+
+        <section id="aboutme">
+            <div class="aboutpage">
+                <h1>
+                    About Me
+                </h1>
+                <p class="aboutsnippet">
+                    I am a bilingual full stack-developer with strong communication, interpersonal, and analytical
+                    skills
+                    gained through a background as an Army nurse. I use innovating critical thinking to solve complex
+                    technical problems. I bring my passion for teamwork and achieving the best possible solution into
+                    each
+                    project. I am eager to join a team of like minded individuals who value diversity and hard work.
+                </p>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="projectpage">
+                <h1>
+                    Projects
+                </h1>
+                <section class="cardsection">
+                    <div class="card">
+                        <img src="./images/IMG_0067.JPG" alt="projectpic" style="width: 40%;">
+                        <div class="container">
+                            <h4><b>Project 1</b></h4>
+                            <p>Recipe Website</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/IMG_0067.JPG" alt="projectpic" style="width: 40%;">
+                        <div class="container">
+                            <h4><b>Project 1</b></h4>
+                            <p>Recipe Website</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/IMG_0067.JPG" alt="projectpic" style="width: 40%;">
+                        <div class="container">
+                            <h4><b>Project 1</b></h4>
+                            <p>Recipe Website</p>
+                        </div>
+                </section>
+            </div>
+    </div>
+    </section>
+    <section id="contact">
+        <div class="contactpage">
+            <h1>
+                Contact Me
+            </h1>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </section>
-
-    <section id="aboutme">
-        <div class="aboutpage">
-            <h1>
-                About Me
-            </h1>
-            <p class="aboutsnippet">
-                I am a bilingual full stack-developer with strong communication, interpersonal, and analytical skills
-                gained through a background as an Army nurse. I use innovating critical thinking to solve complex
-                technical problems. I bring my passion for teamwork and achieving the best possible solution into each
-                project. I am eager to join a team of like minded individuals who value diversity and hard work.
-            </p>
-        </div>
-    </section>
-    <section id="projects">
-        <div class="projectpage">
-            <h1>
-                Projects
-            </h1>
-        </div>
-    </section>
-
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,12 @@
 html {
     scroll-behavior: smooth;
 }
+#contentcontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 2fr 2fr 3fr;
+}
+
 body {
     /* background-image: url(https://images.pexels.com/photos/808465/pexels-photo-808465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
     background-repeat: no-repeat;
@@ -29,16 +35,16 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 .homepage {
     text-align: center;
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 
 .aboutpage {
     text-align: center;
-    padding-top: 200px;
+    /* padding-top: 200px; */
 }
 .aboutsnippet {
     padding-left: 200px;
@@ -47,5 +53,30 @@ a {
 
 .projectpage {
     text-align: center;
-    padding-top: 200px;
+    /* padding-top: 200px; */
+}
+
+.contactpage {
+    text-align: center;
+    /* padding-top: 200px; */
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: block;
+    
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+    padding: 2px 16px;
+  }
+.cardsection {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
 }
