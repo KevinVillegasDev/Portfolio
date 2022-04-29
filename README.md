@@ -56,5 +56,19 @@ Currently building version 1 of my portfolio website
 
 ## Code Snippet
 
+ `<section class="cardsection">
+                    <div class="card">
+                        <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_41/3044956/191009-cooking-vegetables-al-1422.jpg"
+                            alt="projectpic" style="width: 100%;">
+                        <div class="container">
+                            <h4><b>Recipe's Galore</b></h4>
+                            <p>Full stack recipe application that lets you search a database of 600k recipes and get
+                                your own using a randomizer, a whats in your pantry and much more</p>
+                            <a href="https://github.com/KevinVillegasDev/CapstoneFrontend"><img
+                                    src="./images/Github icon.png"> </a>
+                        </div>
+                    </div>`
+
 ## Issues and Resolutions
 
+Had many initial issues with responsive design and using grid to align everything and get the spacing correct but after awhile I strated to get ahold of it and was able to implement both.
