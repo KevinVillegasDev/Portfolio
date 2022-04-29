@@ -56,7 +56,7 @@ Currently building version 1 of my portfolio website
 
 ## Code Snippet
 
-<!-- <section class="cardsection">
+ /* <section class="cardsection">
                     <div class="card">
                         <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_41/3044956/191009-cooking-vegetables-al-1422.jpg"
                             alt="projectpic" style="width: 100%;">
@@ -67,7 +67,7 @@ Currently building version 1 of my portfolio website
                             <a href="https://github.com/KevinVillegasDev/CapstoneFrontend"><img
                                     src="./images/Github icon.png"> </a>
                         </div>
-                    </div> -->
+                    </div> */
 
 ## Issues and Resolutions
 
