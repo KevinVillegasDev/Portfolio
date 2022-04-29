@@ -99,13 +99,14 @@ a {
     margin-right: 20px;
 }
 input {
-    width: 30%;
+    width: 70%;
     box-sizing: border-box;
     padding: 12px 20px;
 }
 textarea {
     box-sizing: border-box;
     width: 70%;
+    font-size: 17px;
     
 }
 
@@ -143,6 +144,7 @@ textarea {
     textarea {
         box-sizing: border-box;
         width: 50%;
+        font-size: 17px;
     }
     .nav-item {
         padding: 15px;
