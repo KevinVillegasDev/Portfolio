@@ -132,9 +132,9 @@ textarea {
     .homepage {
         margin-top: 90px;
     }
-    .nav-container {
+    /* .nav-container {
         margin-top: 50px;
-    }
+    } */
     input {
         width: 30%;
         box-sizing: border-box;
@@ -143,5 +143,8 @@ textarea {
     textarea {
         box-sizing: border-box;
         width: 50%;
+    }
+    .nav-item {
+        padding: 15px;
     }
 }
