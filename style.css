@@ -124,6 +124,9 @@ textarea {
         grid-template-columns: 1.5fr 1.5fr 1.5fr;
         grid-template-rows: 1fr;
     }
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
     .nav-menu img {
         display: none;
     }
